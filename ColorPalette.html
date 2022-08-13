@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renk Değiştir</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      #backGroundColor {
+        left: 50%;
+        top: 50%;
+        margin-left: -120px;
+        margin-top: -100px;
+        position:absolute;
+        background-color:black;
+        color: #fff;
+        border: 1px solid black;
+        border-radius: 5%;
+       
+
+      }
+      #buton {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -50px;
+        margin-top: -50px;
+        border-radius: 5%;
+      }
+      #buton:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body id="renk">
+    <h2 id="backGroundColor">Background Color: #fff</h2>
+    <button id="buton" onclick="colorPalette()">Click Me</button>
+    <script type="text/javascript" src="program.js"></script>
+  </body>
+</html>
